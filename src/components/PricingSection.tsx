@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CheckIcon } from "lucide-react";
@@ -60,7 +59,6 @@ export const PricingSection = ({ title, description, platform, serviceType, tier
                 
                 <div className="mb-4">
                   <span className="text-4xl font-bold text-gray-900">${tier.price}</span>
-                  <span className="text-gray-500 ml-2">one-time</span>
                 </div>
                 
                 <p className="mb-6 font-medium text-brand-600">
