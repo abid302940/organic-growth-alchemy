@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { FacebookIcon, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
@@ -12,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
             <Link to="/" className="text-2xl font-bold text-brand-600 mb-4 inline-block">
-              <span className="text-brand-500">Organic</span>Growth<span className="text-brand-600">Alchemy</span>
+              <span className="text-brand-500">Creator</span>Pals
             </Link>
             <p className="text-gray-600 mb-4 max-w-md">
               We specialize in providing real, organic growth for your social media accounts. Boost your presence with authentic engagement.
@@ -96,7 +95,7 @@ export default function Footer() {
         <div className="border-t border-gray-200 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 mb-4 md:mb-0">
-              © {new Date().getFullYear()} OrganicGrowthAlchemy. All rights reserved.
+              © {new Date().getFullYear()} CreatorPals. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy" className="text-gray-600 hover:text-brand-500">

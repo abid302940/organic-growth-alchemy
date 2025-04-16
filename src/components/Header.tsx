@@ -17,7 +17,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold text-brand-600">
-            <span className="text-brand-500">Organic</span>Growth<span className="text-brand-600">Alchemy</span>
+            <span className="text-brand-500">Creator</span>Pals
           </Link>
         </div>
         
@@ -88,3 +88,4 @@ export default function Header() {
     </header>
   );
 }
+
