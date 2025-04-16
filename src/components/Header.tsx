@@ -74,9 +74,6 @@ export default function Header() {
         </nav>
         
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" className="hidden md:flex text-gray-700 hover:text-brand-500 items-center">
-            Log In
-          </Button>
           <Button className="bg-brand-500 hover:bg-brand-600 text-white">
             Get Started
           </Button>
