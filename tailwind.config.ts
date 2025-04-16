@@ -52,6 +52,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				brand: {
+					50: '#f0f7ff',
+					100: '#e0eefe',
+					200: '#b9ddfc',
+					300: '#7cc3fd',
+					400: '#36a4f9',
+					500: '#0f86eb',
+					600: '#0069cc',
+					700: '#0054a6',
+					800: '#004889',
+					900: '#003c71',
+				},
+				youtube: '#FF0000',
+				instagram: '#E1306C',
+				facebook: '#1877F2',
+				tiktok: '#000000',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
