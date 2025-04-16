@@ -3,6 +3,13 @@ import { Button } from "@/components/ui/button";
 import { FacebookIcon, Instagram, Youtube } from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { 
+  DropdownMenu, 
+  DropdownMenuContent, 
+  DropdownMenuItem, 
+  DropdownMenuTrigger 
+} from "@/components/ui/dropdown-menu";
+import { ChevronDown } from "lucide-react";
 
 export default function Header() {
   return (
@@ -18,34 +25,43 @@ export default function Header() {
           <Link to="/" className="text-gray-700 hover:text-brand-500 font-medium">
             Home
           </Link>
-          <div className="relative group">
-            <button className="text-gray-700 hover:text-brand-500 font-medium flex items-center">
+          
+          <DropdownMenu>
+            <DropdownMenuTrigger className="text-gray-700 hover:text-brand-500 font-medium flex items-center group">
               Services 
-              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-              </svg>
-            </button>
-            <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10 hidden group-hover:block">
-              <div className="py-1">
-                <Link to="/youtube" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-brand-50 hover:text-brand-500">
+              <ChevronDown 
+                className="ml-1 h-4 w-4 transition-transform duration-200 group-data-[state=open]:rotate-180" 
+                aria-hidden="true" 
+              />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="w-56">
+              <DropdownMenuItem asChild>
+                <Link to="/youtube" className="flex items-center">
                   <Youtube className="mr-2 h-4 w-4 text-youtube" />
                   YouTube
                 </Link>
-                <Link to="/instagram" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-brand-50 hover:text-brand-500">
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/instagram" className="flex items-center">
                   <Instagram className="mr-2 h-4 w-4 text-instagram" />
                   Instagram
                 </Link>
-                <Link to="/facebook" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-brand-50 hover:text-brand-500">
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/facebook" className="flex items-center">
                   <FacebookIcon className="mr-2 h-4 w-4 text-facebook" />
                   Facebook
                 </Link>
-                <Link to="/tiktok" className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-brand-50 hover:text-brand-500">
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/tiktok" className="flex items-center">
                   <FaTiktok className="mr-2 h-4 w-4 text-tiktok" />
                   TikTok
                 </Link>
-              </div>
-            </div>
-          </div>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <Link to="/about" className="text-gray-700 hover:text-brand-500 font-medium">
             About Us
           </Link>
