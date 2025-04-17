@@ -1,7 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
+
+  const scrollToServices = () => {
+    navigate('/#services');
+    setTimeout(() => {
+      const servicesSection = document.getElementById('services-section');
+      servicesSection?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
+
   return (
     <div className="relative overflow-hidden bg-white">
       <div 
@@ -38,10 +49,19 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <Button size="lg" className="bg-brand-500 hover:bg-brand-600 text-white px-8 py-6 text-lg">
+              <Button 
+                size="lg" 
+                className="bg-brand-500 hover:bg-brand-600 text-white px-8 py-6 text-lg"
+                onClick={scrollToServices}
+              >
                 Get Organic Engagement!
               </Button>
-              <Button size="lg" variant="outline" className="text-brand-500 border-brand-500 hover:bg-brand-50">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="text-brand-500 border-brand-500 hover:bg-brand-50"
+                onClick={scrollToServices}
+              >
                 Learn More
               </Button>
             </motion.div>

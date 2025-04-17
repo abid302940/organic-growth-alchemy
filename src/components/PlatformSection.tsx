@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
@@ -18,11 +17,15 @@ interface Platform {
 
 interface PlatformSectionProps {
   platforms: Platform[];
+  id?: string;
 }
 
-export const PlatformSection = ({ platforms }: PlatformSectionProps) => {
+export const PlatformSection = ({ platforms, id }: PlatformSectionProps) => {
   return (
-    <section className="py-16 bg-white">
+    <section 
+      id={id || "services-section"} 
+      className="py-16 bg-white"
+    >
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-brand-500 border-brand-200 bg-brand-50 px-4 py-1 rounded-full">

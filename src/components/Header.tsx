@@ -1,8 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { FacebookIcon, Instagram, Youtube } from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { 
   DropdownMenu, 
   DropdownMenuContent, 
@@ -12,6 +11,16 @@ import {
 import { ChevronDown } from "lucide-react";
 
 export default function Header() {
+  const navigate = useNavigate();
+
+  const scrollToServices = () => {
+    navigate('/#services');
+    setTimeout(() => {
+      const servicesSection = document.getElementById('services-section');
+      servicesSection?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
+
   return (
     <header className="w-full py-4 px-6 bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
@@ -74,7 +83,10 @@ export default function Header() {
         </nav>
         
         <div className="flex items-center space-x-4">
-          <Button className="bg-brand-500 hover:bg-brand-600 text-white">
+          <Button 
+            className="bg-brand-500 hover:bg-brand-600 text-white"
+            onClick={scrollToServices}
+          >
             Get Started
           </Button>
           
@@ -88,4 +100,3 @@ export default function Header() {
     </header>
   );
 }
-
