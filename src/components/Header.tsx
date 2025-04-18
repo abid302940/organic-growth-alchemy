@@ -182,9 +182,8 @@ export default function Header() {
                 
                 <SheetClose asChild>
                   <Button 
-                    className="bg-brand-500 hover:bg-brand-600 text-white mt-2"
+                    className="bg-brand-500 hover:bg-brand-600 text-white w-full mt-2"
                     onClick={scrollToServices}
-                    fullWidth
                   >
                     Get Started
                   </Button>
