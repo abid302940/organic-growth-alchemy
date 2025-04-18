@@ -1,5 +1,6 @@
+
 import { Button } from "@/components/ui/button";
-import { FacebookIcon, Instagram, Youtube } from "lucide-react";
+import { FacebookIcon, Instagram, Youtube, Menu } from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { 
@@ -8,6 +9,12 @@ import {
   DropdownMenuItem, 
   DropdownMenuTrigger 
 } from "@/components/ui/dropdown-menu";
+import { 
+  Sheet, 
+  SheetContent, 
+  SheetTrigger,
+  SheetClose
+} from "@/components/ui/sheet";
 import { ChevronDown } from "lucide-react";
 
 export default function Header() {
@@ -104,11 +111,87 @@ export default function Header() {
             Get Started
           </Button>
           
-          <button className="md:hidden text-gray-700 hover:text-brand-500">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
+          <Sheet>
+            <SheetTrigger asChild className="md:hidden">
+              <button className="text-gray-700 hover:text-brand-500">
+                <Menu className="w-6 h-6" />
+                <span className="sr-only">Open mobile menu</span>
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[80%] sm:w-[350px]">
+              <div className="flex flex-col space-y-4 mt-6">
+                <SheetClose asChild>
+                  <Link to="/" className="px-4 py-2 text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md font-medium">
+                    Home
+                  </Link>
+                </SheetClose>
+                
+                <div className="px-4 py-2">
+                  <div className="flex flex-col space-y-2">
+                    <h3 className="font-medium mb-1">Services</h3>
+                    <SheetClose asChild>
+                      <Link to="/youtube" className="flex items-center px-2 py-1.5 text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md">
+                        <Youtube className="mr-2 h-4 w-4 text-youtube" />
+                        YouTube
+                      </Link>
+                    </SheetClose>
+                    <SheetClose asChild>
+                      <Link to="/instagram" className="flex items-center px-2 py-1.5 text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md">
+                        <Instagram className="mr-2 h-4 w-4 text-instagram" />
+                        Instagram
+                      </Link>
+                    </SheetClose>
+                    <SheetClose asChild>
+                      <Link to="/facebook" className="flex items-center px-2 py-1.5 text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md">
+                        <FacebookIcon className="mr-2 h-4 w-4 text-facebook" />
+                        Facebook
+                      </Link>
+                    </SheetClose>
+                    <SheetClose asChild>
+                      <Link to="/tiktok" className="flex items-center px-2 py-1.5 text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md">
+                        <FaTiktok className="mr-2 h-4 w-4 text-tiktok" />
+                        TikTok
+                      </Link>
+                    </SheetClose>
+                  </div>
+                </div>
+                
+                <SheetClose asChild>
+                  <button 
+                    onClick={scrollToFooter}
+                    className="px-4 py-2 text-left text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md font-medium"
+                  >
+                    About Us
+                  </button>
+                </SheetClose>
+                
+                <SheetClose asChild>
+                  <Link to="/blog" className="px-4 py-2 text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md font-medium">
+                    Blog
+                  </Link>
+                </SheetClose>
+                
+                <SheetClose asChild>
+                  <button 
+                    onClick={scrollToFooter}
+                    className="px-4 py-2 text-left text-gray-700 hover:text-brand-500 hover:bg-gray-100 rounded-md font-medium"
+                  >
+                    Contact
+                  </button>
+                </SheetClose>
+                
+                <SheetClose asChild>
+                  <Button 
+                    className="bg-brand-500 hover:bg-brand-600 text-white mt-2"
+                    onClick={scrollToServices}
+                    fullWidth
+                  >
+                    Get Started
+                  </Button>
+                </SheetClose>
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>
