@@ -21,6 +21,14 @@ export default function Header() {
     }, 100);
   };
 
+  const scrollToFooter = () => {
+    navigate('/');
+    setTimeout(() => {
+      const footer = document.querySelector('footer');
+      footer?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
+
   return (
     <header className="w-full py-4 px-6 bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
@@ -71,15 +79,21 @@ export default function Header() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Link to="/about" className="text-gray-700 hover:text-brand-500 font-medium">
+          <button 
+            onClick={scrollToFooter}
+            className="text-gray-700 hover:text-brand-500 font-medium"
+          >
             About Us
-          </Link>
+          </button>
           <Link to="/blog" className="text-gray-700 hover:text-brand-500 font-medium">
             Blog
           </Link>
-          <Link to="/contact" className="text-gray-700 hover:text-brand-500 font-medium">
+          <button 
+            onClick={scrollToFooter}
+            className="text-gray-700 hover:text-brand-500 font-medium"
+          >
             Contact
-          </Link>
+          </button>
         </nav>
         
         <div className="flex items-center space-x-4">
