@@ -1,11 +1,11 @@
-
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { BookText, Youtube, Instagram, TiktokIcon } from "lucide-react";
+import { BookText, Youtube, Instagram } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";  // Use react-icons for TikTok icon instead
 
 const Blog = () => {
   return (
@@ -125,7 +125,7 @@ const Blog = () => {
               {/* TikTok Section */}
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <div className="flex items-center gap-2 mb-4">
-                  <TiktokIcon className="w-6 h-6 text-tiktok" />
+                  <FaTiktok className="w-6 h-6 text-tiktok" />
                   <h3 className="text-xl font-semibold">TikTok Growth</h3>
                 </div>
                 <div className="space-y-4 text-gray-600">
