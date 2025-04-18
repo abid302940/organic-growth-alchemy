@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
             <Link to="/" className="text-2xl font-bold text-brand-600 mb-4 inline-block">
-              <span className="text-brand-500">Creator</span>Pals
+              <span className="text-brand-500">Pals</span>Tube
             </Link>
             <p className="text-gray-600 mb-4 max-w-md">
               We specialize in providing real, organic growth for your social media accounts. Boost your presence with authentic engagement.
