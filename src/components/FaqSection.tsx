@@ -6,8 +6,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 interface FaqItem {
@@ -57,20 +55,6 @@ export const FaqSection = ({ faqs }: FaqSectionProps) => {
                 </AccordionItem>
               ))}
             </Accordion>
-          </motion.div>
-          
-          <motion.div 
-            className="mt-12 text-center"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <p className="text-gray-600 mb-4">
-              Still have questions? We're here to help.
-            </p>
-            <Button asChild>
-              <Link to="/contact">Contact Support</Link>
-            </Button>
           </motion.div>
         </div>
       </div>
