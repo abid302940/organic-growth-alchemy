@@ -22,12 +22,12 @@ const InstagramPage = () => {
   const instagramFollowersTiers = [
     {
       name: "Basic",
-      price: 35,
+      price: 50,
       description: "Perfect for new creators",
-      quantity: "500+ Followers",
+      quantity: "1000+ Followers",
       features: [
         "No password required",
-        "Delivery in 5-7 days",
+        "Delivery in 1-7 days",
         "Real, active accounts",
         "30-day guarantee",
         "24/7 support"
@@ -35,12 +35,12 @@ const InstagramPage = () => {
     },
     {
       name: "Standard",
-      price: 65,
+      price: 95,
       description: "Great for growing accounts",
-      quantity: "1000+ Followers",
+      quantity: "2000+ Followers",
       features: [
         "No password required",
-        "Delivery in 3-5 days",
+        "Delivery in 1-6 days",
         "Real, active accounts",
         "30-day guarantee",
         "Content-relevant followers",
@@ -50,12 +50,12 @@ const InstagramPage = () => {
     },
     {
       name: "Premium",
-      price: 120,
+      price: 235,
       description: "For serious influencers",
-      quantity: "2000+ Followers",
+      quantity: "5000+ Followers",
       features: [
         "No password required",
-        "Delivery in 3-5 days",
+        "Delivery in 1-5 days",
         "Real, active accounts",
         "30-day guarantee",
         "Content-relevant followers",
@@ -65,12 +65,12 @@ const InstagramPage = () => {
     },
     {
       name: "Enterprise",
-      price: 290,
+      price: 465,
       description: "Professional solution",
-      quantity: "5000+ Followers",
+      quantity: "10000+ Followers",
       features: [
         "No password required",
-        "Priority delivery in 3-7 days",
+        "Priority delivery in 1-4 days",
         "Real, active accounts",
         "30-day guarantee",
         "Content-relevant followers",
