@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { PricingSection } from "@/components/PricingSection";
@@ -19,12 +18,12 @@ const FacebookPage = () => {
   );
 
   // Facebook pricing tiers
-  const facebookPageLikesTiers = [
+  const facebookFollowersTiers = [
     {
       name: "Basic",
       price: 30,
       description: "Perfect for new pages",
-      quantity: "500+ Page Likes",
+      quantity: "500+ Followers",
       features: [
         "No password required",
         "Delivery in 5-7 days",
@@ -37,7 +36,7 @@ const FacebookPage = () => {
       name: "Standard",
       price: 55,
       description: "Great for growing pages",
-      quantity: "1000+ Page Likes",
+      quantity: "1000+ Followers",
       features: [
         "No password required",
         "Delivery in 3-5 days",
@@ -52,7 +51,7 @@ const FacebookPage = () => {
       name: "Premium",
       price: 105,
       description: "For serious businesses",
-      quantity: "2000+ Page Likes",
+      quantity: "2000+ Followers",
       features: [
         "No password required",
         "Delivery in 3-5 days",
@@ -67,7 +66,7 @@ const FacebookPage = () => {
       name: "Enterprise",
       price: 250,
       description: "Professional solution",
-      quantity: "5000+ Page Likes",
+      quantity: "5000+ Followers",
       features: [
         "No password required",
         "Priority delivery in 3-7 days",
@@ -306,11 +305,11 @@ const FacebookPage = () => {
         {/* Pricing Sections */}
         <div id="pricing">
           <PricingSection 
-            title="Facebook Page Likes" 
-            description="Grow your page with real likes from engaged users"
+            title="Facebook Followers" 
+            description="Grow your page with real followers from engaged users"
             platform="Facebook"
-            serviceType="Page Likes"
-            tiers={facebookPageLikesTiers}
+            serviceType="Followers"
+            tiers={facebookFollowersTiers}
           />
           
           <PricingSection 
