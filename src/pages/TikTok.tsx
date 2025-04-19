@@ -23,9 +23,9 @@ const TikTokPage = () => {
   const tiktokFollowersTiers = [
     {
       name: "Basic",
-      price: 25,
+      price: 20,
       description: "Perfect for new creators",
-      quantity: "500+ Followers",
+      quantity: "1000+ Followers",
       features: [
         "No password required",
         "Delivery in 3-5 days",
