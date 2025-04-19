@@ -28,7 +28,7 @@ const TikTokPage = () => {
       quantity: "1000+ Followers",
       features: [
         "No password required",
-        "Delivery in 3-5 days",
+        "Delivery in 1-5 days",
         "Real, active accounts",
         "30-day guarantee",
         "24/7 support"
@@ -36,12 +36,12 @@ const TikTokPage = () => {
     },
     {
       name: "Standard",
-      price: 45,
+      price: 90,
       description: "Great for growing accounts",
-      quantity: "1000+ Followers",
+      quantity: "5000+ Followers",
       features: [
         "No password required",
-        "Delivery in 2-4 days",
+        "Delivery in 1-4 days",
         "Real, active accounts",
         "30-day guarantee",
         "Content-relevant followers",
@@ -51,12 +51,12 @@ const TikTokPage = () => {
     },
     {
       name: "Premium",
-      price: 85,
+      price: 160,
       description: "For serious creators",
-      quantity: "2000+ Followers",
+      quantity: "10000+ Followers",
       features: [
         "No password required",
-        "Delivery in 2-3 days",
+        "Delivery in 1-3 days",
         "Real, active accounts",
         "30-day guarantee",
         "Content-relevant followers",
@@ -66,12 +66,12 @@ const TikTokPage = () => {
     },
     {
       name: "Enterprise",
-      price: 210,
+      price: 300,
       description: "Professional solution",
-      quantity: "5000+ Followers",
+      quantity: "20000+ Followers",
       features: [
         "No password required",
-        "Priority delivery in 2-3 days",
+        "Priority delivery in 1-3 days",
         "Real, active accounts",
         "30-day guarantee",
         "Content-relevant followers",
