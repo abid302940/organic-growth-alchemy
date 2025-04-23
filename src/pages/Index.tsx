@@ -5,7 +5,6 @@ import Hero from "@/components/Hero";
 import { PlatformSection } from "@/components/PlatformSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { FaqSection } from "@/components/FaqSection";
-import { CookieConsent } from "@/components/CookieConsent";
 import { platformData } from "@/data/platformData";
 import { testimonialsData } from "@/data/testimonialsData";
 import { faqData } from "@/data/faqData";
@@ -24,7 +23,7 @@ const Index = () => {
         <FaqSection faqs={faqData} />
       </main>
       <Footer />
-      <CookieConsent />
+      {/* Removed CookieConsent component */}
     </>
   );
 };
