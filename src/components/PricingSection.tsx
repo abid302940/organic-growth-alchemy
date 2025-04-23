@@ -28,7 +28,7 @@ export const PricingSection = ({
   platform, 
   serviceType, 
   tiers,
-  getStartedBaseUrl = "https://t.me/palstube"
+  getStartedBaseUrl = "https://creatorpals.com/cart/?add-to-cart=1547"
 }: PricingProps) => {
   return (
     <section className="py-16 bg-gray-50">
