@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CheckIcon } from "lucide-react";
@@ -11,6 +12,7 @@ interface PricingTier {
   features: string[];
   quantity: string;
   isPopular?: boolean;
+  customLink?: string; // Added customLink property
 }
 
 interface PricingProps {
@@ -80,7 +82,7 @@ export const PricingSection = ({
                   asChild
                 >
                   <a 
-                    href={`${getStartedBaseUrl}?package=${encodeURIComponent(tier.name)}&service=${encodeURIComponent(serviceType)}&platform=${encodeURIComponent(platform)}&quantity=${encodeURIComponent(tier.quantity)}&price=${tier.price}`} 
+                    href={tier.customLink || `${getStartedBaseUrl}?package=${encodeURIComponent(tier.name)}&service=${encodeURIComponent(serviceType)}&platform=${encodeURIComponent(platform)}&quantity=${encodeURIComponent(tier.quantity)}&price=${tier.price}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >

@@ -1,4 +1,3 @@
-
 // YouTube Pricing
 export const youtubeSubscribersTiers = [
   {
@@ -12,7 +11,8 @@ export const youtubeSubscribersTiers = [
       "Real, active accounts",
       "30-day guarantee",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/youtube-subscribers/basic"
   },
   {
     name: "Standard",
@@ -27,7 +27,8 @@ export const youtubeSubscribersTiers = [
       "Content-relevant subscribers",
       "24/7 support"
     ],
-    isPopular: true
+    isPopular: true,
+    customLink: "https://creatorpals.com/youtube-subscribers/standard"
   },
   {
     name: "Premium",
@@ -42,7 +43,8 @@ export const youtubeSubscribersTiers = [
       "Content-relevant subscribers",
       "Engagement boost included",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/youtube-subscribers/premium"
   },
   {
     name: "Enterprise",
@@ -59,7 +61,8 @@ export const youtubeSubscribersTiers = [
       "Advanced analytics",
       "Dedicated account manager",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/youtube-subscribers/enterprise"
   }
 ];
 
