@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CheckIcon } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 interface PricingTier {
   name: string;
@@ -18,9 +19,17 @@ interface PricingProps {
   platform: string;
   serviceType: string;
   tiers: PricingTier[];
+  getStartedBaseUrl?: string;
 }
 
-export const PricingSection = ({ title, description, platform, serviceType, tiers }: PricingProps) => {
+export const PricingSection = ({ 
+  title, 
+  description, 
+  platform, 
+  serviceType, 
+  tiers,
+  getStartedBaseUrl = "https://t.me/palstube"
+}: PricingProps) => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-6">
@@ -68,8 +77,15 @@ export const PricingSection = ({ title, description, platform, serviceType, tier
                 <Button 
                   className={`w-full ${tier.isPopular ? "bg-brand-500 hover:bg-brand-600" : ""}`}
                   variant={tier.isPopular ? "default" : "outline"}
+                  asChild
                 >
-                  Get Started
+                  <a 
+                    href={`${getStartedBaseUrl}?package=${encodeURIComponent(tier.name)}&service=${encodeURIComponent(serviceType)}&platform=${encodeURIComponent(platform)}&quantity=${encodeURIComponent(tier.quantity)}&price=${tier.price}`} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    Get Started
+                  </a>
                 </Button>
               </div>
               
