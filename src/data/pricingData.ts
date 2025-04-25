@@ -7,7 +7,7 @@ export const youtubeSubscribersTiers = [
     quantity: "500+ Subscribers",
     features: [
       "No password required",
-      "Delivery in 5-7 days",
+      "Delivery in 1-7 days",
       "Real, active accounts",
       "30-day guarantee",
       "24/7 support"
@@ -21,7 +21,7 @@ export const youtubeSubscribersTiers = [
     quantity: "1000+ Subscribers",
     features: [
       "No password required",
-      "Delivery in 3-5 days",
+      "Delivery in 1-5 days",
       "Real, active accounts",
       "30-day guarantee",
       "Content-relevant subscribers",
@@ -37,7 +37,7 @@ export const youtubeSubscribersTiers = [
     quantity: "2000+ Subscribers",
     features: [
       "No password required",
-      "Delivery in 3-5 days",
+      "Delivery in 1-5 days",
       "Real, active accounts",
       "30-day guarantee",
       "Content-relevant subscribers",
@@ -53,7 +53,7 @@ export const youtubeSubscribersTiers = [
     quantity: "5000+ Subscribers",
     features: [
       "No password required",
-      "Priority delivery in 3-7 days",
+      "Priority delivery in 1-7 days",
       "Real, active accounts",
       "30-day guarantee",
       "Content-relevant subscribers",
@@ -74,7 +74,7 @@ export const youtubeViewsTiers = [
     quantity: "2000+ Views",
     features: [
       "No password required",
-      "Delivery in 2-4 days",
+      "Delivery in 1-4 days",
       "Real viewers",
       "Retention rate boost",
       "24/7 support"
@@ -87,7 +87,7 @@ export const youtubeViewsTiers = [
     quantity: "5000+ Views",
     features: [
       "No password required",
-      "Delivery in 2-4 days",
+      "Delivery in 1-4 days",
       "Real viewers",
       "Retention rate boost",
       "Likes included",
@@ -102,7 +102,7 @@ export const youtubeViewsTiers = [
     quantity: "10000+ Views",
     features: [
       "No password required",
-      "Delivery in 2-4 days",
+      "Delivery in 1-4 days",
       "Real viewers",
       "High retention rate",
       "Likes & comments included",
@@ -116,7 +116,7 @@ export const youtubeViewsTiers = [
     quantity: "20000+ Views",
     features: [
       "No password required",
-      "Priority delivery in 2-4 days",
+      "Priority delivery in 1-4 days",
       "Real viewers",
       "Maximum retention rate",
       "Likes, comments & shares included",
@@ -134,7 +134,7 @@ export const youtubeWatchTimeTiers = [
     quantity: "1000+ Hours",
     features: [
       "No password required",
-      "Delivery in 7-10 days",
+      "Delivery in 1-10 days",
       "Real watch time",
       "Monetization eligibility",
       "24/7 support"
@@ -147,7 +147,7 @@ export const youtubeWatchTimeTiers = [
     quantity: "2000+ Hours",
     features: [
       "No password required",
-      "Delivery in 7-10 days",
+      "Delivery in 1-10 days",
       "Real watch time",
       "Monetization eligibility",
       "Improved content ranking",
@@ -162,7 +162,7 @@ export const youtubeWatchTimeTiers = [
     quantity: "3000+ Hours",
     features: [
       "No password required",
-      "Delivery in 7-10 days",
+      "Delivery in 1-10 days",
       "Real watch time",
       "Monetization eligibility",
       "Improved content ranking",
@@ -177,7 +177,7 @@ export const youtubeWatchTimeTiers = [
     quantity: "4000+ Hours",
     features: [
       "No password required",
-      "Priority delivery in 7-10 days",
+      "Priority delivery in 1-10 days",
       "Real watch time",
       "Monetization eligibility",
       "Maximum content ranking",
