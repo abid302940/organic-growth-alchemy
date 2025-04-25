@@ -21,12 +21,12 @@ const FacebookPage = () => {
   const facebookFollowersTiers = [
     {
       name: "Basic",
-      price: 30,
+      price: 50,
       description: "Perfect for new pages",
-      quantity: "500+ Followers",
+      quantity: "1000+ Followers",
       features: [
         "No password required",
-        "Delivery in 5-7 days",
+        "Delivery in 1-7 days",
         "Real, active accounts",
         "30-day guarantee",
         "24/7 support"
@@ -34,12 +34,12 @@ const FacebookPage = () => {
     },
     {
       name: "Standard",
-      price: 55,
+      price: 95,
       description: "Great for growing pages",
-      quantity: "1000+ Followers",
+      quantity: "2000+ Followers",
       features: [
         "No password required",
-        "Delivery in 3-5 days",
+        "Delivery in 1-5 days",
         "Real, active accounts",
         "30-day guarantee",
         "Targeted by interest",
@@ -49,12 +49,12 @@ const FacebookPage = () => {
     },
     {
       name: "Premium",
-      price: 105,
+      price: 235,
       description: "For serious businesses",
-      quantity: "2000+ Followers",
+      quantity: "5000+ Followers",
       features: [
         "No password required",
-        "Delivery in 3-5 days",
+        "Delivery in 1-5 days",
         "Real, active accounts",
         "30-day guarantee",
         "Targeted by interest",
@@ -64,12 +64,12 @@ const FacebookPage = () => {
     },
     {
       name: "Enterprise",
-      price: 250,
+      price: 465,
       description: "Professional solution",
       quantity: "5000+ Followers",
       features: [
         "No password required",
-        "Priority delivery in 3-7 days",
+        "Priority delivery in 1-7 days",
         "Real, active accounts",
         "30-day guarantee",
         "Interest & demographic targeting",
