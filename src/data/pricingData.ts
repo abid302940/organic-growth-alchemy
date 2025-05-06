@@ -12,7 +12,7 @@ export const youtubeSubscribersTiers = [
       "30-day guarantee",
       "24/7 support"
     ],
-    customLink: "https://creatorpals.com/youtube-subscribers/basic"
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1547"
   },
   {
     name: "Standard",
@@ -28,7 +28,7 @@ export const youtubeSubscribersTiers = [
       "24/7 support"
     ],
     isPopular: true,
-    customLink: "https://creatorpals.com/youtube-subscribers/standard"
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1552"
   },
   {
     name: "Premium",
@@ -44,7 +44,7 @@ export const youtubeSubscribersTiers = [
       "Engagement boost included",
       "24/7 support"
     ],
-    customLink: "https://creatorpals.com/youtube-subscribers/premium"
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1553"
   },
   {
     name: "Enterprise",
@@ -62,7 +62,7 @@ export const youtubeSubscribersTiers = [
       "Dedicated account manager",
       "24/7 support"
     ],
-    customLink: "https://creatorpals.com/youtube-subscribers/enterprise"
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1554"
   }
 ];
 
