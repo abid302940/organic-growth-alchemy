@@ -78,7 +78,8 @@ export const youtubeViewsTiers = [
       "Real viewers",
       "Retention rate boost",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1554"
   },
   {
     name: "Standard",
