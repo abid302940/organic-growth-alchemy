@@ -79,7 +79,7 @@ export const youtubeViewsTiers = [
       "Retention rate boost",
       "24/7 support"
     ],
-    customLink: "https://creatorpals.com/cart/?add-to-cart=1554"
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1556"
   },
   {
     name: "Standard",
@@ -94,7 +94,8 @@ export const youtubeViewsTiers = [
       "Likes included",
       "24/7 support"
     ],
-    isPopular: true
+    isPopular: true,
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1557"
   },
   {
     name: "Premium",
@@ -108,7 +109,8 @@ export const youtubeViewsTiers = [
       "High retention rate",
       "Likes & comments included",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1559"
   },
   {
     name: "Enterprise",
@@ -123,7 +125,8 @@ export const youtubeViewsTiers = [
       "Likes, comments & shares included",
       "Analytics report",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1560"
   }
 ];
 
@@ -139,7 +142,8 @@ export const youtubeWatchTimeTiers = [
       "Real watch time",
       "Monetization eligibility",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1561"
   },
   {
     name: "Standard",
@@ -154,7 +158,8 @@ export const youtubeWatchTimeTiers = [
       "Improved content ranking",
       "24/7 support"
     ],
-    isPopular: true
+    isPopular: true,
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1562"
   },
   {
     name: "Premium",
@@ -169,7 +174,8 @@ export const youtubeWatchTimeTiers = [
       "Improved content ranking",
       "Subscriber boost included",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1563"
   },
   {
     name: "Enterprise",
@@ -185,7 +191,8 @@ export const youtubeWatchTimeTiers = [
       "Subscriber & engagement boost",
       "Channel consultation",
       "24/7 support"
-    ]
+    ],
+    customLink: "https://creatorpals.com/cart/?add-to-cart=1564"
   }
 ];
 
