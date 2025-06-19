@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -100,9 +101,9 @@ export default function Hero() {
           >
             <div className="relative z-10 lg:mr-16">
               <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                alt="Social Media Growth" 
-                className="rounded-xl shadow-2xl" 
+                src="/lovable-uploads/bf4020bc-72be-47e2-bcd6-5287f25ecd74.png" 
+                alt="Social Media Platforms" 
+                className="rounded-xl shadow-2xl w-full h-auto" 
               />
             </div>
             
