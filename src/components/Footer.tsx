@@ -76,7 +76,7 @@ export default function Footer() {
             <div className="flex items-center mb-3">
               <Mail className="h-5 w-5 text-brand-500 mr-2" />
               <a href="mailto:support@organicgrowthalchemy.com" className="text-gray-600 hover:text-brand-500">
-                support@organicgrowthalchemy.com
+                support@creatorpals.com
               </a>
             </div>
             <div className="flex items-center mb-3">
