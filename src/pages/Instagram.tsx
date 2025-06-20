@@ -210,7 +210,7 @@ const InstagramPage = () => {
               >
                 <div className="rounded-xl overflow-hidden shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                    src="/lovable-uploads/83a616b2-5292-40d1-9104-f8f487a2efae.png" 
                     alt="Instagram Growth" 
                     className="w-full h-auto"
                   />
