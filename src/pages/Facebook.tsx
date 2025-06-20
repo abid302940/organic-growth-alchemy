@@ -1,3 +1,4 @@
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { PricingSection } from "@/components/PricingSection";
@@ -206,7 +207,7 @@ const FacebookPage = () => {
               >
                 <div className="rounded-xl overflow-hidden shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                    src="/lovable-uploads/a086352f-58cb-412c-b336-cd104ec7e29c.png" 
                     alt="Facebook Growth" 
                     className="w-full h-auto"
                   />
